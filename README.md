@@ -13,7 +13,7 @@ Repositório acadêmico da prática de Redes de Computadores no Cisco Packet Tra
 
 Esta atividade prática teve como objetivo implementar e validar a segmentação de rede por meio de **VLANs (Virtual Local Area Networks)** e a agregação de tráfego através de **enlaces Trunk** em uma topologia de rede hierárquica dividida em três camadas (Núcleo, Distribuição e Acesso).
 
-* **Encapsulamento :** Padrão da indústria que insere uma tag de 4 bytes no quadro Ethernet original, permitindo identificar a qual VLAN o tráfego pertence ao trafegar por um único enlace físico partilhado (entroncamento).
+* **Encapsulamento (IEEE 802.1Q) :** Padrão da indústria que insere uma tag de 4 bytes no quadro Ethernet original, permitindo identificar a qual VLAN o tráfego pertence ao trafegar por um único enlace físico partilhado (entroncamento).
 * **VLAN Nativa:** Configurada padronizadamente na **VLAN 1** em todos os enlaces Trunk para o tratamento de tráfego não etiquetado, prevenindo alertas de incompatibilidade (*Native VLAN Mismatch*).
 
 ---
